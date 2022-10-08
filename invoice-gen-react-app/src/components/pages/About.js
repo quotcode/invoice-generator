@@ -1,10 +1,17 @@
 import React from "react";
 
-const About = () =>{
+const About = () => {
+
     return (
-        <div className="container">
-            <h1>You are in About Page!</h1>
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <h1 className="display-4">About</h1>
+                <p className="lead">
+                   You are inside About Page!
+                </p>
+            </div>
         </div>
+
     );
 }
 

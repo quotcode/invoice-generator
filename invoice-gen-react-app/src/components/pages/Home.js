@@ -1,10 +1,16 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import axios from "axios";
 
-const Home = () =>{
+const Home = () => {
+    
     return (
-        <div className="container">
-            <h1>You are in Home Page!</h1>
-            <button class="btn btn-warning">Click me</button>
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <h1 className="display-4">Main Page</h1>
+                <p className="lead">
+                Inside Home Section
+                </p>
+            </div>
         </div>
     );
 }

@@ -3,26 +3,18 @@ import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                    LOGO
-                </a>
-                <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"/>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" href="/">
+        <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <Link className="navbar-brand" to="/">
+                    Logo
+                </Link>
+                
+                <div className="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul className="navbar-nav">
+                        <li className="nav-item active">
+                            <Link className="nav-link" to="/">
                                 Home
+
                             </Link>
                         </li>
                         <li className="nav-item">
@@ -31,26 +23,41 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/services">
-                                Services
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/invoice-generate">
-                                Invoice
-                            </Link>
-                        </li>
-						<li className="nav-item">
                             <Link className="nav-link" to="/contact">
                                 Contact
                             </Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/services">
+                                Services
+                            </Link>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link
+                                className="nav-link dropdown-toggle"
+                                to="#"
+                                id="navbarDropdownMenuLink"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                                Invoice
+                            </Link>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <Link className="dropdown-item" to="/view-invoice">
+                                    View Invoice
+                                </Link>
+                                <Link className="dropdown-item" to="/invoice-generate">Create Invoice</Link>
+                                <Link className="dropdown-item" to="/edit-company-info">
+                                    Edit Company Details
+                                </Link>
 
+                            </div>
+                        </li>
                     </ul>
-
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
 
     );
 }
