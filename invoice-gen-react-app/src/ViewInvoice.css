@@ -1,0 +1,63 @@
+.view-invoice-main {
+    font-size: small;
+    border: 1px solid black;
+    margin-left: 0%;
+    margin-bottom: 3%;
+}
+
+.hero-div {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.invoice-header {
+    margin-left: 2%;
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.info-list {
+    list-style: none;
+}
+
+.items-table-div {
+    border: 0.5px solid black;
+    margin-left: 40%;
+}
+.items-table {
+    border-spacing: 0;
+}
+
+.FinalAmtDiv {
+    margin-left: 76%;
+}
+.total-amt {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    font-size:x-large;
+}
+
+.sign-block {
+    padding-top: 15%;
+}
+.signature {
+    display: flex;
+    justify-content: space-between;
+}
+.terms {
+    font-size: x-small;
+    margin-bottom: 1%;
+}
+.heading {
+    font-weight: 600;
+}
+.greeting {
+    font-size: medium;
+    font-weight: 600;
+}

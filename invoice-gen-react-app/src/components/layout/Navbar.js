@@ -48,11 +48,20 @@ const Navbar = () => {
                                     View Invoice
                                 </Link>
                                 <Link className="dropdown-item" to="/invoice-generate">Create Invoice</Link>
-                                <Link className="dropdown-item" to="/edit-company-info">
+                                <Link className="dropdown-item" to="/company-details">
                                     Edit Company Details
                                 </Link>
-
                             </div>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link  btn" to="/">
+                                Sign In
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link  btn" to="/">
+                                Login
+                            </Link>
                         </li>
                     </ul>
                 </div>

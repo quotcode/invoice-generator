@@ -1,0 +1,76 @@
+{
+    "customer": {
+        "info": {
+            "id": "C00001", // automatic increment and hidden to user
+            "name": "Shivam",
+            "email": "shivam@gmail.com",
+            "phone": "9999999999",
+            "address": "A406, Modern Colony, Maharashtra-401209",
+            "GSTIN": "PEFS3492",
+            "invoiceDate": "" 
+        },
+        "items": [
+            {   
+                "srno": 1, // automatic increment
+                "itemId": "I001", // automatic increment and hidden to user
+                "description": "Stainless Steel Gears",
+                "quantity": 10,
+                "price": "1000"
+            }, {
+                "srno": 2,
+                "itemId": "I002",
+                "description": "Iron Fittings",
+                "quantity": 50,
+                "price": 45
+            }, {
+                "srno": 3,
+                "itemId": "I003",
+                "description": "Brass Socket",
+                "quantity": 60,
+                "price": "1450"
+            }, {
+                "srno": 4,
+                "itemId": "I004",
+                "description": "Stainless Steel Moulds",
+                "quantity": 4,
+                "price": "2400"
+            }, {
+                "srno": 5,
+                "itemId": "I005",
+                "description": "Metallice Groove",
+                "quantity": 2,
+                "price": "24000"
+            }, {
+                "srno": 6,
+                "itemId": "I006",
+                "description": "Shutter Clamps",
+                "quantity": 20,
+                "price": 1560
+            }, {
+                "srno": 7,
+                "itemId": "I007",
+                "description": "Alloy Fittings",
+                "quantity": 60,
+                "price": "990"
+            }, {
+                "srno": 8,
+                "itemId": "I008",
+                "description": "Brass Socket",
+                "quantity": 20,
+                "price": "1450"
+            }, {
+                "srno": 9,
+                "itemId": "I009",
+                "description": "Aluminium Punch Hole with 4 Symmetric edges",
+                "quantity": 50,
+                "price": "930"
+            }, {
+                "srno": 10,
+                "itemId": "I010",
+                "description": "Buckle Moulds for mouses",
+                "quantity": 1,
+                "price": "40567"
+            }
+        ]
+    }
+}
