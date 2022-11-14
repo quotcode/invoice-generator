@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "task":"Wake up!",
+        "complete": true
+    },
+    {
+        "id": 2,
+        "task":"Freshen Up",
+        "complete": false
+    },
+    {
+        "id": 3,
+        "task":"Do exercise",
+        "complete": false
+    },
+    {
+        "id": 4,
+        "task":"Have breakfast",
+        "complete": false
+    },
+    {
+        "id": 5,
+        "task":"Practice Coding",
+        "complete": true
+    },
+    {
+        "id": 6,
+        "task":"Start office work",
+        "complete": true
+    },
+    {
+        "id": 7,
+        "task":"Have lunch",
+        "complete": false
+    }
+]

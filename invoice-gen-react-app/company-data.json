@@ -1,0 +1,25 @@
+{
+    "company": {
+        "info": {
+            "name": "ABC Company",
+            "address": "K-456, Rajul Compound, Opp Western Express Highway, Goregaon West, Mumbai, Maharashtra-400080",
+            "phone": "7788334422",
+            "email": "abc4u@abc.com",
+            "website": "https://abc4u.com",
+            "GSTIN": "<Company's GST Number>",
+            "logoImg": "<Logo image address>",
+            "description": "A to Z Manufacturing Company. We manufacture with precision and great quality. Since 2015",
+            "paymentQRImg": "<QR Code image address>"
+        },
+        "bill":{
+            "totalAmtWithoutTax":"", // calculation to be done at backend
+            "totalTax":"", // calculation to be done at backend
+            "totalAmtWithTax":"" // calculation to be done at backend
+        },
+        "other": {
+            "IGST": "<%GST TO BE DEDUCTED IN ADDITION TO TOTAL COST OF EACH ITEM>",
+            "challanNo": "",
+            "challanDate": "" 
+        }
+    }
+}
