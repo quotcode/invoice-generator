@@ -1,2 +1,2 @@
 # invoice-generator
-An invoice generator app using React framework.
+An invoice generator application using React framework.
